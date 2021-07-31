@@ -1,0 +1,1 @@
+﻿Create table Location (Lid int,Lname varchar(20))
