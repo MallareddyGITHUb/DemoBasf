@@ -1,4 +1,5 @@
 # .NET Desktop
+
 - task: SqlDacpacDeploymentOnMachineGroup@0
   inputs:
     TaskType: 'dacpac'
@@ -12,7 +13,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/apps/windows/dot-net
 
 trigger:
-- master
+- main
 
 pool:
   vmImage: 'windows-latest'
